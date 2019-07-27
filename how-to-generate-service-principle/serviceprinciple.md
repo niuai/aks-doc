@@ -1,6 +1,6 @@
 # 如何通过Azure Portal生成并获取服务主体Azure Service Principle信息
 
-> 注意，以下步骤需要您具有订阅的管理员权限。
+> 以下步骤需要您具有订阅的管理员权限。
 
 1. 登录到Azure管理门户，如：[Azure中国](https://portal.azure.cn)。
 
@@ -21,6 +21,7 @@
 ![主体授权](./images/app-authorize.png)
 
 7. 最后得到以上步骤中生成的信息：
+    - 订阅名称
     - 应用程序(客户端) ID
     - 目录(租户) ID
     - 密码
