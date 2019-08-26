@@ -65,3 +65,7 @@ console.log(`Running on http://${HOST}:${PORT}`);
 ## PHP
 
 直接将 PHP 项目文件打包（zip）
+
+## Java（Spring app & Tomcat）
+
+运行 `mvn clean package/mvn clean install` 生成项目的部署包（例如 target/java-demo.jar）
