@@ -18,7 +18,7 @@
 2. 将所有部署文件打包成 zip 包，记住程序的启动 dll（此处为 demo-netcore.dll）
 ![files](images/files-netcore.png)
 
-## NodeJs（express）
+## NodeJs（范例：express）
 
 1. 准备启动脚本 `server.js` 和 `package.json`
 
@@ -63,3 +63,5 @@ console.log(`Running on http://${HOST}:${PORT}`);
 ![files](images/files-nodejs.png)
 
 ## PHP
+
+直接将 PHP 项目文件打包（zip）
