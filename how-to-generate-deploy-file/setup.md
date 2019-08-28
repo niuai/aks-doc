@@ -59,7 +59,7 @@ console.log(`Running on http://${HOST}:${PORT}`);
 }
 ```
 
-2. 将所有文件打包成 zip 包（node_modules 文件夹是不需要包含在其中的）（注意记下此项目的启动命令为 npm start，且对外开放的端口要设置为80）
+2. 将所有文件打包成 zip 包（node_modules 文件夹是不需要包含在其中的）（注意记下此项目的启动命令为 start，且对外开放的端口要设置为80）
 ![files](images/files-nodejs.png)
 
 ## PHP
