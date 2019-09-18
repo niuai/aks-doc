@@ -66,6 +66,10 @@ console.log(`Running on http://${HOST}:${PORT}`);
 
 直接将 PHP 项目文件打包（zip）
 
-## Java（Spring app & Tomcat）
+## Java（.war 比如 Spring MVC use Tomcat）
 
-运行 `mvn clean package/mvn clean install` 生成项目的部署包（例如 target/java-demo.jar）
+运行 `mvn clean package/mvn clean install` 生成项目的部署包（例如 target/java-demo.war）
+
+## Java（.jar 比如 Spring Boot 应用）
+
+Build 生成 jar 包（例如 target/java-demo.jar）
