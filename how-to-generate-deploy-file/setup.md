@@ -73,3 +73,7 @@ console.log(`Running on http://${HOST}:${PORT}`);
 ## Java（.jar 比如 Spring Boot 应用）
 
 Build 生成 jar 包（例如 target/java-demo.jar）
+
+## Python
+
+在项目根目录准备 `requirements.txt` 文件（用于还原依赖），将整个项目文件夹打成 `zip` 包（记住项目的启动文件，比如 `app.py`）
