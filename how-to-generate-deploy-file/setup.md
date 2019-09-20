@@ -77,3 +77,24 @@ Build 生成 jar 包（例如 target/java-demo.jar）
 ## Python
 
 在项目根目录准备 `requirements.txt` 文件（用于还原依赖），将整个项目文件夹打成 `zip` 包（记住项目的启动文件，比如 `app.py`）
+
+app.py
+
+```python
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return 'Hello Python!'
+
+if __name__ == "__main__":
+    app.run(host = "0.0.0.0", port = 80)
+```
+
+requirements.txt
+
+```txt
+flask
+```
